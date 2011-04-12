@@ -1,0 +1,14 @@
+<ul>
+<% @books.each do |book|%>
+<li class="book <%=cycle :left, :right %>">
+  <div class="image">
+    <%=image_tag book.image_url%>
+  </div>
+  <div class="description">
+    <h2><%=book.title%></h2>
+    <p>by <%=book.author.name%></p>
+    <p class="price"><%=number_to_currency book.price%></p>
+  </div>
+</li>
+<%end%>
+</ul>

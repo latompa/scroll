@@ -1,0 +1,56 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#container {
+  width: 900px;
+  margin: 10px auto;
+}
+
+h1 {
+  font-size: 100px;
+  color: #ddd;
+  font-weight: bold;
+  letter-spacing: -5px;
+}
+
+li.book {
+  padding: 20px;
+  color: #333;
+  display: inline-block;
+  float: left;
+  width: 400px;
+  border-bottom: 2px solid #eee;
+  border-radius: 3px;
+}
+li.book:hover {
+  background: #f3f3f3
+}
+
+li.book.left {
+  border-right: 2px solid #eee;
+}
+li.book p {
+  line-height: 1.6em;
+}
+
+div.image {
+  float: left;
+  width: 150px;
+}
+div.description {
+  float: left;
+  width: 200px;
+}
+div.price {
+  float: left;
+  font-size: 24px;
+  color: #555;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  color: #555;
+  font-weight: bold;
+}
